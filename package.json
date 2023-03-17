@@ -1,0 +1,44 @@
+{
+  "name": "proexe-task",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "json-server --watch db.json --port 3004 & next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "install:server": "yarn add json-server -g"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@hookform/resolvers": "^2.9.11",
+    "@mui/icons-material": "^5.11.11",
+    "@mui/material": "^5.11.13",
+    "@reduxjs/toolkit": "^1.9.3",
+    "@types/node": "18.15.3",
+    "@types/react": "18.0.28",
+    "@types/react-dom": "18.0.11",
+    "@types/redux-logger": "^3.0.9",
+    "@types/yup": "^0.32.0",
+    "eslint": "8.36.0",
+    "eslint-config-next": "13.2.4",
+    "eslint-plugin-unused-imports": "^2.0.0",
+    "json-server": "^0.17.2",
+    "next": "13.2.4",
+    "notistack": "^3.0.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-hook-form": "^7.43.6",
+    "react-redux": "^8.0.5",
+    "redux": "^4.2.1",
+    "redux-logger": "^3.0.6",
+    "typescript": "4.9.5",
+    "uuid": "^9.0.0",
+    "yup": "^1.0.2"
+  },
+  "devDependencies": {
+    "@types/uuid": "^9.0.1",
+    "prettier": "2.8.4"
+  }
+}
